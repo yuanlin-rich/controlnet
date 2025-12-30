@@ -1,6 +1,7 @@
 # Midas Depth Estimation
 # From https://github.com/isl-org/MiDaS
 # MIT LICENSE
+# 单目深度估计深度，生成深度图
 
 import cv2
 import numpy as np

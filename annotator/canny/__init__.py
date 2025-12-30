@@ -1,5 +1,6 @@
-import cv2
+# canny边缘检测算子
 
+import cv2
 
 class CannyDetector:
     def __call__(self, img, low_threshold, high_threshold):

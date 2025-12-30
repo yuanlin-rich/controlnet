@@ -5,6 +5,8 @@
 # Different from official models and other implementations, this is an RGB-input model (rather than BGR)
 # and in this way it works better for gradio's RGB protocol
 
+# 整体嵌套边缘检测，某种基于深度学习的边缘检测算法
+
 import os
 import cv2
 import torch

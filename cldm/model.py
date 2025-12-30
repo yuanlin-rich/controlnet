@@ -1,13 +1,12 @@
 import os
 import torch
 
+# omegaconf用于管理yaml配置文件
 from omegaconf import OmegaConf
 from ldm.util import instantiate_from_config
 
-
 def get_state_dict(d):
     return d.get('state_dict', d)
-
 
 def load_state_dict(ckpt_path, location='cpu'):
     _, extension = os.path.splitext(ckpt_path)
@@ -19,7 +18,6 @@ def load_state_dict(ckpt_path, location='cpu'):
     state_dict = get_state_dict(state_dict)
     print(f'Loaded state_dict from [{ckpt_path}]')
     return state_dict
-
 
 def create_model(config_path):
     config = OmegaConf.load(config_path)

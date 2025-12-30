@@ -1,6 +1,7 @@
 # MLSD Line Detection
 # From https://github.com/navervision/mlsd
 # Apache-2.0 license
+# 专为建筑和室内设计的直线检测算法
 
 import cv2
 import numpy as np

@@ -2,6 +2,7 @@
 # Original from CMU https://github.com/CMU-Perceptual-Computing-Lab/openpose
 # 2nd Edited by https://github.com/Hzzone/pytorch-openpose
 # 3rd Edited by ControlNet
+# 输出人体姿态骨架图
 
 import os
 os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"

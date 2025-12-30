@@ -1,6 +1,7 @@
 # Uniformer
 # From https://github.com/Sense-X/UniFormer
 # # Apache-2.0 license
+# 统一架构的语义分割检测器
 
 import os
 

@@ -1,4 +1,5 @@
 # based on https://github.com/isl-org/MiDaS
+# MiDaS（单目深度估计模型）的加载和推理功能
 
 import cv2
 import torch

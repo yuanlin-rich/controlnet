@@ -1,9 +1,10 @@
+# 加载fill50k数据集
+
 import json
 import cv2
 import numpy as np
 
 from torch.utils.data import Dataset
-
 
 class MyDataset(Dataset):
     def __init__(self):
@@ -18,6 +19,7 @@ class MyDataset(Dataset):
     def __getitem__(self, idx):
         item = self.data[idx]
 
+        # 条件图像，目标图像，提示词
         source_filename = item['source']
         target_filename = item['target']
         prompt = item['prompt']
